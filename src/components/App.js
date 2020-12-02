@@ -5,7 +5,7 @@ import { Router, Route, IndexRoute, hashHistory} from 'react-router-dom'
 
 const App = () => (
   <div>
-    {this.props.chidlren}
+    <p>Testding</p>
   </div>
 )
 

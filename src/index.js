@@ -6,10 +6,7 @@ import Header from './components/Header'
 
 render((
   <div>
-      <Header />
-    <Router>
-      <Route path= "/"></Route>
-    </Router>
+    <App />
   </div>
 
 ), document.getElementById('root'));
