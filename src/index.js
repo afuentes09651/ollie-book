@@ -1,11 +1,21 @@
-import React from 'react'
-import { render } from 'react-dom'
-import { BrowserRouter } from 'react-router-dom'
+import React, {Component} from 'react'
+import { render} from 'react-dom'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+
+import {IndexRoute} from "react-router";
+
 import App from './components/App';
+import Home from './components/Home';
 
 render((
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>
+<Router>
+  <Route path="/" component={App}>
+  </Route>
+</Router>
 
 ), document.getElementById('root'));
