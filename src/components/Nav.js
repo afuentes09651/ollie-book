@@ -1,11 +1,17 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 const Nav = () => (
   <nav>
-    <button>Home</button>
-    <button>About</button>
-    <button>Kitty</button>
-    <button>idk</button>
+    <Link to='/home'>
+      <button>Home</button>
+    </Link>
+    <Link to='/about'>
+      <button>Kitty</button>
+    </Link>
+      <Link to='/wubba'>
+        <button>idk</button>
+      </Link>
   </nav>
 )
 
