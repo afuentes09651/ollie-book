@@ -6,6 +6,8 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.css';
+//import custom styles here
 
 import {IndexRoute} from "react-router";
 
