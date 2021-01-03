@@ -2,16 +2,12 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 
 const Nav = () => (
-  <nav>
-    <Link to='/home'>
-      <button>Home</button>
-    </Link>
-    <Link to='/about'>
-      <button>Kitty</button>
-    </Link>
-      <Link to='/wubba'>
-        <button>idk</button>
-      </Link>
+  <nav class='navbar navbar-expand-lg mynav'>
+    <ul class ='navbar-nav'>
+      <Link to='/home' class='nav-link'>Home</Link>
+      <Link to='/about' class='nav-link'>Kitty</Link>
+        <Link to='/wubba' class='nav-link'>Wubba</Link>
+    </ul>
   </nav>
 )
 
